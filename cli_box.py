@@ -29,7 +29,7 @@ def box(
     corners: Tuple[str, str, str, str] = ("┌", "┐", "┘", "└"),
     sides: Union[Tuple[str, str, str, str], Tuple[str, str]] = ("│", "─"),
     background: str = " ",
-    align: Union[Literal["left"], Literal["center"], Literal["bottom"]] = "center",
+    align: str = "center",
 ) -> str:
     padding = 1
     """
