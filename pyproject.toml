@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cli-box"
-version = "0.1.1"
+version = "0.1.2"
 description = "Add a box around your text for prettier CLIs"
 authors = ["Ewen Le Bihan <ewen.lebihan7@gmail.com>"]
 license = "MIT"
