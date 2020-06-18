@@ -5,6 +5,7 @@ description = "Add a box around your text for prettier CLIs"
 authors = ["Ewen Le Bihan <ewen.lebihan7@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/ewen-lbh/python-cli-box"
 
 [tool.poetry.dependencies]
 python = "^3.6"

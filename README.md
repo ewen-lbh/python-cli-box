@@ -5,15 +5,14 @@
 ## Installation
 
 ```sh-session
-pip install box
+pip install cli-box
 ```
 
 ## Usage
 
 ```python
->>> import box
-
->>> print(box.rounded("""Lorem ipsum
+>>> import cli_box
+>>> print(cli_box.rounded("""Lorem ipsum
 ... dolor sit amet.
 ... """))
 ╭─────────────────╮
