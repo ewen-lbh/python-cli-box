@@ -10,6 +10,7 @@ repository = "https://github.com/ewen-lbh/python-cli-box"
 [tool.poetry.dependencies]
 python = "^3.6"
 wcwidth = "^0.2.4"
+strip-ansi = "^0.1.1"
 
 [tool.poetry.dev-dependencies]
 black = {version = "^19.10b0", allow-prereleases = true}

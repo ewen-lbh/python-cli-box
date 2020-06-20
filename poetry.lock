@@ -65,6 +65,14 @@ python-versions = "*"
 version = "2020.6.8"
 
 [[package]]
+category = "main"
+description = "Strip ANSI escape sequences from a string"
+name = "strip-ansi"
+optional = false
+python-versions = ">=3.6,<4.0"
+version = "0.1.1"
+
+[[package]]
 category = "dev"
 description = "Python Library for Tom's Obvious, Minimal Language"
 name = "toml"
@@ -89,7 +97,7 @@ python-versions = "*"
 version = "0.2.4"
 
 [metadata]
-content-hash = "01a371e6008b3780ca132ab894d39f7b0669f08a548a9ace3a97844eb6814203"
+content-hash = "785cd0e5d298e3ddc7531208903647a1c9287b997db4e84339da31fd403a97a8"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -135,6 +143,10 @@ regex = [
     {file = "regex-2020.6.8-cp38-cp38-win32.whl", hash = "sha256:97712e0d0af05febd8ab63d2ef0ab2d0cd9deddf4476f7aa153f76feef4b2754"},
     {file = "regex-2020.6.8-cp38-cp38-win_amd64.whl", hash = "sha256:6ad8663c17db4c5ef438141f99e291c4d4edfeaacc0ce28b5bba2b0bf273d9b5"},
     {file = "regex-2020.6.8.tar.gz", hash = "sha256:e9b64e609d37438f7d6e68c2546d2cb8062f3adb27e6336bc129b51be20773ac"},
+]
+strip-ansi = [
+    {file = "strip-ansi-0.1.1.tar.gz", hash = "sha256:5d60f239cc8a37fdd52b43c3e66e893d45ba0423115db59eca0d2eef83b07729"},
+    {file = "strip_ansi-0.1.1-py3-none-any.whl", hash = "sha256:9f55280e1b0ba84dac49d4f18aa6b51b90ff766b22e4918ffc01cc87b394ecd1"},
 ]
 toml = [
     {file = "toml-0.10.1-py2.py3-none-any.whl", hash = "sha256:bda89d5935c2eac546d648028b9901107a595863cb36bae0c73ac804a9b4ce88"},
