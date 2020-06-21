@@ -61,7 +61,6 @@ def box(
     text_width = max(strwidth(l) for l in lines)
     width = text_width + padding * 2
     res = [corners[0] + sides[0] * width + corners[1]]
-    alignement_char = {"left": "<", "right": ">", "center": "^"}[align]
     for l in lines:
         res.append(
             sides[3]
