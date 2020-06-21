@@ -7,7 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Breaking changes are written in **bold**
 
+
 ## [Unreleased]
+
+## [1.0.0] - 2020-06-21
 
 ### Added
 
@@ -33,3 +36,7 @@ Breaking changes are written in **bold**
 ## [0.1.0]
 
 Initial release
+
+
+[Unreleased]: https://github.com/ewen-lbh/ideaseed/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/ewen-lbh/ideaseed/compare/v0.2.0...v1.0.0
